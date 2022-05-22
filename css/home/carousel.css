@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: auto;
+  scrollbar-color: #023430 #ffffff;
 }
 
 body {
