@@ -236,12 +236,13 @@ body {
 
 .footer {
   background: #023430;
-  height: 50%;
-  padding-bottom: 30px;
+  /*height: auto;*/
   position: relative;
   width: 100%;
-  border-bottom: 1px solid #CCCCCC;
-  border-top: 1px solid #DDDDDD;
+}
+
+footer .col-md-6{
+  height: 50vh;
 }
 
 .footer p {
@@ -265,7 +266,7 @@ body {
 .footer h4 {
   color: white;
   font-size: 2em;
-  font-weight: 600;
+  /*font-weight: 600;*/
   line-height: 38px;
   padding: 30px 0 10px;
   font-family: cursive;
