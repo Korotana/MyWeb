@@ -12,6 +12,9 @@ body {
 .top-bar {
   position: relative;
   display: flex;
+  z-index: 9;
+  opacity: 0.9;
+  top:0;
   width: 100%;
   background-color: #023430;
   color: white;
@@ -47,7 +50,6 @@ body {
   color: #00ed64;
 }
 
-
 .mySlides {
   max-height: 80vh;
   display: none;
@@ -56,6 +58,7 @@ body {
 .slideshow-img {
   height: 70vh;
   width: 100%;
+  /*position: */
 }
 
 /*#my-pic{*/
@@ -138,7 +141,7 @@ body {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #023430;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
