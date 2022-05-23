@@ -12,9 +12,6 @@ body {
 .top-bar {
   position: relative;
   display: flex;
-  z-index: 9;
-  opacity: 0.9;
-  top:0;
   width: 100%;
   background-color: #023430;
   color: white;
