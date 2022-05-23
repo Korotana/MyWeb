@@ -43,6 +43,11 @@ body {
   color: white;
 }
 
+.right-top-bar a:hover{
+  color: #00ed64;
+}
+
+
 .mySlides {
   max-height: 80vh;
   display: none;
@@ -80,7 +85,8 @@ body {
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
+  color: #00ed64;
+  font-weight: bold;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -198,10 +204,9 @@ body {
 #workex-list {
   overflow: scroll;
   scrollbar-color: #00ed64 #023430 ;
-  text-align: center;
 }
 
-ul li{
+#workex-list ul li{
   padding: 2%;
   text-align: left;
   font-size: 20px;
