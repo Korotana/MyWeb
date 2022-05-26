@@ -9,6 +9,22 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+body::-webkit-scrollbar{
+  background-color: #023430;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #00ed64;
+    border-radius: 50px;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-corner{
+  background-color: #023430;
+}
+
+
 .top-bar {
   position: relative;
   display: flex;
@@ -202,9 +218,25 @@ body {
   text-align: center
 }
 
-#workex-list {
+#workex-list{
   overflow: scroll;
   scrollbar-color: #00ed64 #023430 ;
+}
+
+#workex-list::-webkit-scrollbar{
+  background-color: #023430;
+  /*overflow: scroll;*/
+  width: 5px;
+}
+
+#workex-list::-webkit-scrollbar-thumb{
+  background-color: #00ed64;
+  border-radius: 50px;
+  width: 5px;
+}
+
+#workex-list::-webkit-scrollbar-corner{
+  background-color: #023430;
 }
 
 #workex-list ul li{
