@@ -43,3 +43,4 @@ function showSlides(n) {
 function clear(timer) {
     clearTimeout(timer);
 }
+
