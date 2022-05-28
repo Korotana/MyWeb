@@ -5,7 +5,10 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
-    slideIndex += n - 1;
+  if (slideIndex < 2 && n === -1) {
+    slideIndex = 4;
+  }  else {
+    slideIndex += n - 1;}
     clearTimeout(timer);
     showSlides(slideIndex);
 }
