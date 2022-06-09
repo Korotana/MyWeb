@@ -11,6 +11,7 @@
 .grid-item {
   width: 100%;
   color: #023430;
+  height: min-content;
   font-weight: bold;
   font-size: 20px;
   text-align: center;
@@ -28,29 +29,27 @@
 }
 
 .item{
+
   display: none;
   margin-bottom: 10px;
 }
 
 .university-item{
   display: none;
-  margin-bottom: 10px;
   transition: all 1s ease-in;
 }
 
 .job-item{
   display: none;
-  margin-bottom: 10px;
 }
 
 .ielts-item{
   display: none;
-  margin-bottom: 10px;
 }
 
 .studentscroll{
   overflow: scroll;
-  margin-bottom: 10px;
+  padding-bottom: 8%;
 }
 
 .studentscroll::-webkit-scrollbar{
@@ -87,8 +86,7 @@
 .grid-item img{
   width: 100%;
   vertical-align: middle;
-  margin: 0;
-  padding: 0;
+
   object-fit: cover;
 }
 
@@ -118,6 +116,9 @@ a:hover{
 
 .morevideos{
   display: block;
+  height: min-content;
+  width: 100%;
+  margin: max(3vw,3vh) 0 max(3vw,2vh) 0;
   animation: fade 2s linear forwards;
   transition: all 1s ease-in; /* here */
 }

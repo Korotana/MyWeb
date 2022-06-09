@@ -8,12 +8,16 @@ function Showheader(){
   }
   var phoneheader = document.getElementById("right-top-bar");
   if (toggle === 0){
-    phoneheader.style.width = "160px"
+    phoneheader.style.fontSize = "20px"
     toggle = 1
   }
   else {
-    phoneheader.style.width = "0px"
+    phoneheader.style.fontSize = "0px"
     toggle = 0
   }
 
 }
+//
+// if (window.innerWidth > "750px"){
+//   document.getElementById("right-top-bar").style. = "100%"
+// }
