@@ -1,11 +1,11 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-auto-rows: 240px 240px;
+  /* grid-auto-rows: 240px 240px; */
   margin: 0 10% 2% 10%;
   padding-right: 2%;
-  grid-column-gap:5%;
-  grid-row-gap: 13%;
+  grid-column-gap: 5%;
+  grid-row-gap: 7%;
 }
 
 .grid-item {
@@ -23,52 +23,49 @@
 }
 
 @media (max-width: 1200px) {
-  .grid-item{
-    height: 26rem;
+  .grid-item {
+    height: 10rem;
   }
 }
 
-.item{
-
+.item {
   display: none;
   margin-bottom: 10px;
 }
 
-.university-item{
+.university-item {
   display: none;
   transition: all 1s ease-in;
 }
 
-.job-item{
+.job-item {
   display: none;
 }
 
-.ielts-item{
+.ielts-item {
   display: none;
 }
 
-.studentscroll{
+.studentscroll {
   overflow: scroll;
-  padding-bottom: 8%;
+  padding-bottom: 3%;
 }
 
-.studentscroll::-webkit-scrollbar{
+.studentscroll::-webkit-scrollbar {
   background-color: #023430;
   width: 5px;
   height: 0;
 }
 
-.studentscroll::-webkit-scrollbar-thumb{
+.studentscroll::-webkit-scrollbar-thumb {
   background-color: #00ed64;
   border-radius: 50px;
   width: 5px;
-
 }
 
-.studentscroll::-webkit-scrollbar-corner{
+.studentscroll::-webkit-scrollbar-corner {
   background-color: #023430;
 }
-
 
 @keyframes fade {
   from {
@@ -83,50 +80,49 @@
   }
 }
 
-.grid-item img{
+.grid-item img {
   width: 100%;
   vertical-align: middle;
 
   object-fit: cover;
 }
 
-.grid-item:hover{
-  border: 1px solid #00ed64;
+.grid-item:hover {
+  /* border: 1px solid #00ed64; */
   transition: all 0.4s ease-in;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-.grid-item:hover:after{
+.grid-item:hover:after {
   transition: ease-out 0.5s;
 }
 
-.img-label{
-  margin:0 10% 2% 10%;
+.img-label {
+  margin: 0 10% 2% 10%;
   font-weight: bold;
   border-bottom: solid #023430;
 }
 
-h2 a{
+h2 a {
   float: right;
 }
 
-a:hover{
+a:hover {
   cursor: pointer;
 }
 
-.morevideos{
+.morevideos {
   display: block;
   height: min-content;
   width: 100%;
-  margin: max(3vw,3vh) 0 max(3vw,2vh) 0;
+  /* margin: max(3vw, 3vh) 0 max(3vw, 2vh) 0; */
   animation: fade 2s linear forwards;
   transition: all 1s ease-in; /* here */
 }
 
-.studentscroll{
+.studentscroll {
   scrollbar-color: #023430 #ffffff;
 }
-
 
 .scrollable-element {
   scrollbar-color: red yellow;
