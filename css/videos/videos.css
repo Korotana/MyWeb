@@ -117,7 +117,7 @@ a:hover{
   display: block;
   height: min-content;
   width: 100%;
-  margin: max(3vw,3vh) 0 max(3vw,2vh) 0;
+/*   margin: max(3vw,3vh) 0 max(3vw,2vh) 0; */
   animation: fade 2s linear forwards;
   transition: all 1s ease-in; /* here */
 }
