@@ -47,6 +47,10 @@
   display: none;
 }
 
+.general-hidden-item{
+  display: none;
+}
+
 .studentscroll{
   overflow: scroll;
   padding-bottom: 4%;
