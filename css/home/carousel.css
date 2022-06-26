@@ -58,6 +58,7 @@ body::-webkit-scrollbar-corner{
 }
 
 #right-top-bar a:hover{
+  text-decoration: none !important;
   color: #00ed64;
 }
 
