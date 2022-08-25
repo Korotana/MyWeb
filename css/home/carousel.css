@@ -239,6 +239,10 @@ body::-webkit-scrollbar-corner{
   object-position: 50% 50%;
 }
 
+.about{
+  height: auto !important;
+}
+
 .about-me-text {
   padding: 5%;
   text-align: center;
